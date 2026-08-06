@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="关焕聪的个人学术主页，研究方向包括 3D Gaussian Splatting、三维场景理解、多模态学习与大模型应用。">
+  <meta name="theme-color" content="#fafafa">
+  <meta property="og:title" content="Huancong GUAN · 关焕聪">
+  <meta property="og:description" content="3D Vision researcher and AI engineer based in Shenzhen.">
+  <meta property="og:type" content="website">
+  <title>Huancong GUAN · 关焕聪</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Noto+Sans+SC:wght@400;500;600&family=Playfair+Display:wght@600;700&family=Source+Serif+4:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="nav-name" href="#top">Huancong Guan</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      <div class="nav-links" id="nav-links">
+        <a href="#education">Education</a>
+        <a href="#publications">Publications</a>
+        <a href="#projects">Projects</a>
+        <a href="#honors">Honors</a>
+        <button class="theme-toggle" type="button" aria-label="切换深色模式" title="切换深色模式">☾</button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top" class="container">
+    <section class="intro-section" aria-labelledby="page-title">
+      <div class="intro-main">
+        <header class="title-block">
+          <h1 id="page-title"><strong>Huancong</strong> GUAN <span>·</span> <b>关焕聪</b></h1>
+          <div class="social-links" aria-label="联系方式">
+            <a href="mailto:1473229459@qq.com" title="Email" aria-label="Email">
+              <svg viewBox="0 0 512 512" aria-hidden="true"><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0l217.6-163.2c12.1-9.1 19.2-23.3 19.2-38.4 0-26.5-21.5-48-48-48H48zM0 176v224c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V176L294.4 339.2a64 64 0 0 1-76.8 0L0 176z"/></svg>
+            </a>
+            <a href="https://github.com/hcguan19" target="_blank" rel="noreferrer" title="GitHub" aria-label="GitHub">
+              <svg viewBox="0 0 496 512" aria-hidden="true"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.8-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.4-11.1-33.3 2.6-67.8 20.9-6.4 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.8 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.7 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8z"/></svg>
+            </a>
+          </div>
+        </header>
+
+        <div class="bio">
+          <p>我是深圳大学人工智能学院计算机科学与技术专业的硕士研究生，研究兴趣主要包括 <a href="#publications">3D Gaussian Splatting</a>、三维场景理解、实例分割、多模态学习与大模型应用。</p>
+          <p>我的研究致力于构建可靠的三维场景表示与理解方法，重点关注二维监督噪声、跨视角不一致，以及复杂场景中的实例边界和分离问题。我也在探索文本引导的三维实例检索。</p>
+          <p>除三维视觉研究外，我也具备多模态视频建模、RAG、Agent 编排及大模型微调与对齐经验，能够独立完成数据处理、模型训练、实验评估和系统实现。</p>
+          <p class="contact-line">欢迎通过 <a href="mailto:1473229459@qq.com">📧 1473229459@qq.com</a> 与我交流。</p>
+        </div>
+      </div>
+
+      <aside class="profile">
+        <div class="profile-image-wrap profile-monogram" role="img" aria-label="Huancong Guan initials">
+          <i></i><i></i><i></i><span>HG</span>
+        </div>
+        <p><strong>Huancong Guan</strong><br>Master Student · AI Researcher<br>📍 Shenzhen, China</p>
+      </aside>
+    </section>
+
+    <section id="education" class="content-section">
+      <h2 class="section-title"><span>👨🏻‍🎓 Education Experience</span></h2>
+      <p class="section-hint">Click a school below to expand details.</p>
+      <div class="education-row">
+        <button class="education-item active" type="button" data-target="education-szu" aria-expanded="true">
+          <img class="school-logo" src="assets/szu-logo.png" alt="深圳大学校徽">
+          <span><strong>Shenzhen University</strong><small>Master · 2024 — Present</small></span>
+        </button>
+        <button class="education-item" type="button" data-target="education-gdut" aria-expanded="false">
+          <img class="school-logo" src="assets/gdut-logo.jpg" alt="广东工业大学校徽">
+          <span><strong>Guangdong University of Technology</strong><small>Bachelor · 2020 — 2024</small></span>
+        </button>
+      </div>
+
+      <article class="detail-card active" id="education-szu">
+        <div class="detail-mark"><img src="assets/szu-logo.png" alt="深圳大学校徽"></div>
+        <div>
+          <div class="detail-head"><div><h3>深圳大学</h3><p>人工智能学院 · 📍 深圳，中国</p></div><div class="tags"><span>硕士研究生</span><span>2024.09 — 至今</span></div></div>
+          <dl><div><dt>Major</dt><dd>计算机科学与技术</dd></div><div><dt>GPA</dt><dd>3.42 / 4.00</dd></div><div><dt>Note</dt><dd><em>2024 年校级研究生特等奖学金</em></dd></div></dl>
+        </div>
+      </article>
+
+      <article class="detail-card" id="education-gdut" hidden>
+        <div class="detail-mark"><img src="assets/gdut-logo.jpg" alt="广东工业大学校徽"></div>
+        <div>
+          <div class="detail-head"><div><h3>广东工业大学</h3><p>自动化学院 · 📍 广州，中国</p></div><div class="tags"><span>工学学士</span><span>2020.09 — 2024.06</span></div></div>
+          <dl><div><dt>Major</dt><dd>物联网工程</dd></div><div><dt>GPA</dt><dd>3.75 / 5.00 · 排名 11 / 86（推免）</dd></div></dl>
+        </div>
+      </article>
+    </section>
+
+    <section id="publications" class="content-section">
+      <h2 class="section-title"><span>📖 Selected Publications</span></h2>
+      <div class="publication-group">
+        <p class="group-label">Preprints</p>
+        <article class="publication">
+          <div class="paper-cover" aria-hidden="true"><span>DenoGS</span><i></i><i></i><i></i></div>
+          <div class="paper-content">
+            <h3>Robust Instance Segmentation via 3D Gaussian Denoising Constraints</h3>
+            <p class="authors"><strong>Huancong Guan</strong></p>
+            <p class="venue"><b>🎉 小修后接收（AQE）</b><span>IEEE Transactions on Image Processing</span></p>
+            <div class="paper-tags"><span>3DGS</span><span>Instance Segmentation</span></div>
+            <details>
+              <summary>Abstract</summary>
+              <p>3D Gaussian Splatting (3DGS) has recently gained significant attention as an efficient representation for 3D scene modeling and photo-realistic rendering. However, achieving robust instance-level segmentation within this representation remains challenging due to inter-instance interference, noisy features, and limited semantic discriminability. These issues often lead to background artifacts, blurred boundaries, and incomplete surfaces when extracting individual instances. To address these challenges, we propose DenoGS, a global-local instance segmentation framework that explicitly models each object by integrating global semantic context with local geometric details, thereby enhancing segmentation performance. To further improve boundary accuracy and robustness, we introduce a denoising constraint that mitigates the effects of spatial noise and ambiguity. In addition, we propose a lightweight referring mechanism that enables accurate identification of target objects using a single natural language expression, supporting language-guided instance selection. Experimental results on multiple 3D scene benchmarks demonstrate that our method consistently outperforms existing approaches in both instance segmentation accuracy and referring consistency, validating the effectiveness and practicality of the proposed denoising-regularized modeling strategy and lightweight reasoning mechanism.</p>
+            </details>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="content-section">
+      <h2 class="section-title"><span>🧰 Project Experience</span></h2>
+      <div class="compact-list">
+        <details class="compact-card" open>
+          <summary><span><b>论文检索问答系统</b><small>RAG · Agent · FastAPI</small></span><time>2025.10 — 2025.12</time></summary>
+          <div class="compact-body">
+            <p class="project-stack"><b>技术栈：</b>FastAPI、LangGraph、LangChain、Chroma、BM25、Reranker、SQLite、MCP</p>
+            <ul>
+              <li>面向论文阅读与科研问答场景，设计本地优先的论文检索 Agent，支持 arXiv 论文搜索、PDF 下载入库、会话级文件上传问答、本地论文库检索与联网补充检索。</li>
+              <li>基于 FastAPI + LangGraph 构建多路径 Agent 编排流程，将请求划分为论文搜索、论文内容问答、本地库检索、工具调用及历史对话检索等类型。</li>
+              <li>设计 Local-first 论文问答链路；本地缺失时再触发 arXiv 搜索、PDF 下载、结构化入库和向量化，并构建 Section tree 与 Section role。</li>
+              <li>构建 Hybrid RAG 检索策略，融合 Chroma 向量检索、BM25、RRF 与 CrossEncoder Reranker，结合元数据加权和 Section-aware 检索提升证据相关性。</li>
+              <li>接入 MCP 工具体系，并通过 SSE 流式接口返回路由、检索、工具调用和生成过程 trace，提升系统可观测性与可调试性。</li>
+            </ul>
+          </div>
+        </details>
+        <details class="compact-card">
+          <summary><span><b>个性化旅行推荐系统</b><small>Multi-Agent · LangGraph</small></span><time>2026.01 — 2026.02</time></summary>
+          <div class="compact-body">
+            <p class="project-stack"><b>技术栈：</b>LangGraph、LangChain、SQLAlchemy、MCP Server</p>
+            <ul>
+              <li>基于 LangGraph + FastAPI 设计多 Agent 行程规划系统，根据目的地、天数、预算与偏好自动生成包含景点、酒店、天气、交通和预算的完整旅行方案。</li>
+              <li>将任务拆分为 POI 检索、酒店推荐、天气分析三个并行节点，设计规则过滤 + 名称打分 + LLM 二次筛选的景点过滤机制。</li>
+              <li>实现路线规划、交通推荐与预算估算，并支持 Cost、Relax、Coverage 三类多目标方案生成。</li>
+            </ul>
+          </div>
+        </details>
+        <details class="compact-card">
+          <summary><span><b>Qwen2.5 微调与对齐实验</b><small>LLM Alignment · LoRA</small></span><time>2026.02 — 2026.03</time></summary>
+          <div class="compact-body">
+            <p class="project-stack"><b>技术栈：</b>LLaMA-Factory、Qwen2.5-7B、LoRA、SFT、DPO、Reward Model、PPO</p>
+            <ul>
+              <li>基于 Qwen2.5-7B-Instruct 搭建 SFT、DPO、Reward Model 与 PPO 多阶段训练评测流程，完成数据集配置、LoRA/Full 微调对比和指标评估。</li>
+              <li>在 CNN/DailyMail 摘要任务上通过 LoRA 将 eval loss 从 3.006 降至 1.392，下降约 53.7%。</li>
+              <li>在 Summarize 偏好建模任务上将 Reward Model 的 eval accuracy 从 42.4% 提升至 75.2%，eval loss 从 0.744 降至 0.498。</li>
+              <li>完成 UltraFeedback DPO 实验及 PPO 策略模型训练，形成从 SFT、RM 到 PPO 的可复用 RLHF 实验链路。</li>
+            </ul>
+          </div>
+        </details>
+        <details class="compact-card">
+          <summary><span><b>多模态人体卵细胞分类</b><small>Multimodal Learning · DDP</small></span><time>2025.09 — Present</time></summary>
+          <div class="compact-body">
+            <p class="project-stack"><b>技术栈：</b>PyTorch、CNN、Transformer、Attention Pooling、DDP</p>
+            <ul>
+              <li>面向医院合作的辅助生殖场景，探索基于卵细胞发育视频与结构化表格数据的多模态分类方法，并构建支持变长视频片段输入的时序预处理流程。</li>
+              <li>构建多分支视频编码与多模态融合模型，结合 Neighborhood Attention、时间编码、Transformer、帧级/段级注意力池化和 Modality gating。</li>
+              <li>搭建 DDP 分布式训练与评测流程，支持混合精度、梯度累积、梯度裁剪、学习率调度与 checkpoint 管理。</li>
+              <li>当前实验准确率达到 70%+。</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <section id="honors" class="content-section">
+      <h2 class="section-title"><span>🌟 Selected Honors</span></h2>
+      <div class="honors-list">
+        <div><span>深圳大学校级研究生特等奖学金</span><time>2024</time></div>
+        <div><span>全国大学生数学建模大赛广东省赛二等奖</span><time>2022</time></div>
+        <div><span>“电工杯”全国大学生电工数学建模竞赛三等奖</span><time>2022</time></div>
+        <div><span>广东工业大学数学挑战赛一等奖</span><time>2022</time></div>
+        <div><span>人体心电信号分析软件著作权 2 项</span><time>2023</time></div>
+      </div>
+    </section>
+
+    <section class="content-section skills-section">
+      <h2 class="section-title"><span>🛠 Skills</span></h2>
+      <div class="skill-grid">
+        <p><b>Programming & Frameworks</b><span>Python · C++ · PyTorch · FastAPI · LangChain · LangGraph</span></p>
+        <p><b>Research & Engineering</b><span>3DGS · RAG · Agent · LoRA · SFT · DPO · Multimodal Learning</span></p>
+        <p><b>Language</b><span>CET-6 488 · 英文学术阅读与写作</span></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container">
+    <p>© <span id="year"></span> Huancong Guan</p>
+    <p>Last updated: August 2026</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
