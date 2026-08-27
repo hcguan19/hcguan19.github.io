@@ -276,6 +276,26 @@ dd { margin: 0; color: var(--muted); }
 .venue b { color: #16a34a; font-style: normal; }
 html[data-theme="dark"] .venue b { color: #4ade80; }
 .paper-tags { display: flex; flex-wrap: wrap; gap: .3rem; }
+.paper-links { margin: .45rem 0 .1rem; font: 600 .76rem system-ui, sans-serif; }
+.paper-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: .25rem;
+  padding: .2rem .55rem;
+  border: 1px solid color-mix(in srgb, var(--primary) 35%, transparent);
+  border-radius: 6px;
+  background: color-mix(in srgb, var(--primary) 8%, transparent);
+  text-underline-offset: 2px;
+}
+.paper-links a:hover { background: color-mix(in srgb, var(--primary) 16%, transparent); }
+.paper-links a.is-pending {
+  color: var(--soft);
+  border-color: var(--border);
+  background: transparent;
+  cursor: not-allowed;
+  opacity: .72;
+}
+.paper-links a.is-pending:hover { background: transparent; text-decoration: none; }
 .paper-content details { margin-top: .35rem; color: var(--muted); font-size: .77rem; }
 .paper-content summary { width: max-content; color: var(--primary); font: 500 .72rem system-ui, sans-serif; cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
 .paper-content details p { margin: .3rem 0 0; }

@@ -55,6 +55,8 @@ const I18N = {
     pub_status: '🎉 Accepted',
     pub_venue: 'IEEE Transactions on Image Processing (CCF-A)',
     pub_abstract: 'Abstract',
+    paper_link: 'Paper ↗',
+    paper_link_pending: 'Link coming soon',
     proj_title: '🚀 Project Experience',
     tech_stack: 'Tech Stack:',
     code_link: 'Code ↗',
@@ -147,6 +149,8 @@ const I18N = {
     pub_status: '🎉 已接收',
     pub_venue: 'IEEE Transactions on Image Processing（CCF-A）',
     pub_abstract: '摘要',
+    paper_link: '论文 ↗',
+    paper_link_pending: '链接即将更新',
     proj_title: '🚀 项目经历',
     tech_stack: '技术栈：',
     code_link: '代码 ↗',
@@ -300,6 +304,12 @@ document.querySelectorAll('.education-item').forEach((button) => {
       selected.hidden = false;
       selected.classList.add('active');
     }
+  });
+});
+
+document.querySelectorAll('.paper-link.is-pending').forEach((link) => {
+  link.addEventListener('click', (event) => {
+    event.preventDefault();
   });
 });
 
