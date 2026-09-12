@@ -117,17 +117,22 @@
       <div class="publication-group">
         <p class="group-label" data-i18n="pub_preprints">Journal Papers</p>
         <article class="publication">
-          <div class="paper-cover has-image" aria-hidden="true"><img src="assets/denogs-cover.jpg" alt="DenoGS Figure 1"></div>
+          <div class="paper-cover has-image"><img src="assets/denogs-figure1.png" alt="DenoGS comparison of 3D Gaussian instance segmentation with and without denoising constraints" width="1527" height="549"></div>
           <div class="paper-content">
             <h3>Robust Instance Segmentation via 3D Gaussian Denoising Constraints</h3>
-            <p class="authors"><strong>Huancong Guan</strong></p>
-            <p class="venue"><b data-i18n="pub_status">🎉 Published</b><span data-i18n="pub_venue">IEEE Transactions on Image Processing (CCF-A)</span></p>
+            <p class="authors"><a href="#top"><strong>Huancong Guan</strong></a>, Jiayi Lyu, Teng Wang, Bin Huang, Zehai Niu, Linlin Shen, and Jinbao Wang</p>
+            <p class="venue"><b data-i18n="pub_status">🎉 Published</b><span data-i18n="pub_venue">IEEE Transactions on Image Processing</span>
+              <span class="journal-rating rating-ccf">CCF-A</span>
+              <span class="journal-rating rating-jcr" title="2024 JCR data, released June 2025">JCR Q1</span>
+            </p>
+            <div class="paper-actions">
             <div class="paper-tags"><span>3DGS</span><span>Instance Segmentation</span></div>
             <p class="paper-links">
               <a class="paper-link" href="https://ieeexplore.ieee.org/document/11689692" target="_blank" rel="noreferrer" data-i18n-attr="title:paper_link;aria-label:paper_link" title="Paper" aria-label="Paper">
                 <span data-i18n="paper_link">Paper ↗</span>
               </a>
             </p>
+            </div>
             <details>
               <summary data-i18n="pub_abstract">Abstract</summary>
               <p>3D Gaussian Splatting (3DGS) has recently gained significant attention as an efficient representation for 3D scene modeling and photo-realistic rendering. However, achieving robust instance-level segmentation within this representation remains challenging due to inter-instance interference, noisy features, and limited semantic discriminability. These issues often lead to background artifacts, blurred boundaries, and incomplete surfaces when extracting individual instances. To address these challenges, we propose DenoGS, a global-local instance segmentation framework that explicitly models each object by integrating global semantic context with local geometric details, thereby enhancing segmentation performance. To further improve boundary accuracy and robustness, we introduce a denoising constraint that mitigates the effects of spatial noise and ambiguity. In addition, we propose a lightweight referring mechanism that enables accurate identification of target objects using a single natural language expression, supporting language-guided instance selection. Experimental results on multiple 3D scene benchmarks demonstrate that our method consistently outperforms existing approaches in both instance segmentation accuracy and referring consistency, validating the effectiveness and practicality of the proposed denoising-regularized modeling strategy and lightweight reasoning mechanism.</p>
