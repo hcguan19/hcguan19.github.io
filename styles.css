@@ -297,9 +297,11 @@ dd { margin: 0; color: var(--muted); }
 html[data-theme="dark"] .venue b { color: #4ade80; }
 .journal-rating { display: inline-block; padding: .05rem .45rem; border: 1px solid currentColor; border-radius: 4px; background: transparent; font-size: .76rem; font-style: normal; font-weight: 600; line-height: 1.35; white-space: nowrap; vertical-align: baseline; }
 .rating-ccf { color: #ff5555; }
-.rating-jcr { color: #843cff; }
+.rating-cas { color: #f59e0b; }
+.rating-sci { color: #0891b2; }
 html[data-theme="dark"] .rating-ccf { color: #ff8585; }
-html[data-theme="dark"] .rating-jcr { color: #b994ff; }
+html[data-theme="dark"] .rating-cas { color: #fbbf24; }
+html[data-theme="dark"] .rating-sci { color: #22d3ee; }
 .paper-tags { display: flex; flex-wrap: wrap; gap: .3rem; }
 .paper-actions { display: flex; flex-wrap: wrap; align-items: center; gap: .35rem .65rem; }
 .paper-actions .paper-links { margin: 0; white-space: nowrap; }
