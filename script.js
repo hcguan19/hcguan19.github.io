@@ -141,7 +141,7 @@ const I18N = {
     label_major: '专业',
     label_awards: '获奖',
     szu_major: '计算机科学与技术',
-    szu_awards: '2024 年校级研究生特等奖学金',
+    szu_awards: '2024 年深圳大学研究生特等奖学金',
     gdut_name: '广东工业大学',
     gdut_college: '自动化学院 · 📍 广州，中国',
     gdut_degree: '工学学士',
