@@ -43,7 +43,7 @@ const I18N = {
     label_major: 'Major',
     label_awards: 'Awards',
     szu_major: 'Computer Science and Technology',
-    szu_awards: '2024 University Special Scholarship for Graduate Students',
+    szu_awards: '2024 Shenzhen University Special Scholarship for Graduate Students',
     gdut_name: 'Guangdong University of Technology',
     gdut_college: 'School of Automation · 📍 Guangzhou, China',
     gdut_degree: 'B.Eng.',
